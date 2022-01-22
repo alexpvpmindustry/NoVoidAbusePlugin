@@ -1,3 +1,14 @@
+### a contribution to improve PVP gameplay
+
+kills all units that are out of bounds from the map.
+this prevents players from using the "void" to bypass defenses, hence the plugin name.
+
+major contribution from `Goober#8171` from Anuke's Mindustry Discord .
+
+glhf.
+
+plugin modified from https://github.com/Anuken/MindustryPluginTemplate
+
 ### Setup
 
 Clone this repository first.
