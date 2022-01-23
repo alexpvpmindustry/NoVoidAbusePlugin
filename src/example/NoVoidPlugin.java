@@ -22,7 +22,7 @@ public class NoVoidPlugin extends Plugin{
                 int h2 = Vars.world.height()*8+buffer;
                 int w2 = Vars.world.width()*8+buffer;
                 Groups.unit.each(u -> ((u.x<w1) || (u.x>w2) || (u.y<h1) || (u.y>h2))
-                        , u -> { Call.sendMessage("Unit Out of Bounds. YEET.");
+                        , u -> { //Call.sendMessage("Unit Out of Bounds. YEET.");
                     u.kill();});
             }, refreshInterval, refreshInterval);
         }
